@@ -19,11 +19,11 @@ nav {
 	padding-right: 15px;
 }
 
-.lable{
+.lable {
 	width: 113px;
 	height: 24px;
 	background-color: black;
-	color:#fff;
+	color: #fff;
 	text-transform: uppercase;
 	margin: 0 auto;
 	font-size: 11px;
@@ -32,6 +32,8 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 32px;
+	
 
 }
 
@@ -173,49 +175,73 @@ nav {
 
 /* REASONS */
 
-.reasons{
+.reasons {
 	padding-top: 20px;
 }
 
-.reasons__row{
-	
-}
-.reasons__block{
-	align-items: left ;
 
+.reasons__items{
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
 }
-.reasons__round{
-	width: 116px;
+
+.reasons__row {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 15px;
+}
+
+.reasons__block {
+	display: flex;
+	align-items: center;
+}
+
+
+.reasons__round {
+	min-width: 116px;
 	height: 116px;
 	background: #1EACC7;
 	border-radius: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
-	margin-bottom: 15px;
+	margin-right: 25px;
+}
 
+.reasons__descr {
+	max-width: 370px;
+	height: 100%;
 }
-.reasons__descr{
- width: 371px;
- height: 150px;
-}
-.reasons__subtitle{
+
+
+.reasons__subtitle {
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 21px;
 	text-align: left;
-	color:  #1EACC7;
-	
+	color: #1EACC7;
+	margin-bottom: 5px;
+
 }
-.reasons__text{
+
+.reasons__text {
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 21px;
 	text-align: left;
 }
-.reasons__row__right{
-	
+
+.reasons__row__right {
+
 	display: flex;
 	justify-content: flex-end;
+}
+
+.reasons__title {
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 48px;
+	text-align: center;
+	margin-bottom: 16px;
 }
