@@ -177,6 +177,7 @@ nav {
 
 .reasons {
 	padding-top: 20px;
+	padding-bottom: 64px;
 }
 
 
@@ -244,4 +245,78 @@ nav {
 	line-height: 48px;
 	text-align: center;
 	margin-bottom: 16px;
+}
+.mobile__title{
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 48px;
+	text-align: center;
+}
+
+
+.mobile{
+	padding-bottom: 100px;
+}
+
+.mobile__subtitle{
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+.mobile__card{
+	width: 320px;
+	height: 280px;
+	background-color: #555555;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	position: relative;
+
+	overflow: hidden;
+		/* background: url(../img/card.png) center center / cover no-repeat; */
+}
+
+
+.mobile__items{
+	position: relative;
+	z-index: 10px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mobile__text {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 31px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.mobile__plus {
+	min-width: 29px;
+	min-height: 29px;
+	border-radius: 100%;
+	background: url(../img/plus.png) center center no-repeat;
+	background-color: #000;
+	background-size: 14px 14px;
+}
+
+.mobile__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.mobile__row{
+	display: flex;
+	column-gap: 67px;
+	margin-bottom: 19px;
 }
