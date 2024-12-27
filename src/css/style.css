@@ -19,7 +19,7 @@ nav {
 	padding-right: 15px;
 }
 
-.lable {
+.label {
 	width: 113px;
 	height: 24px;
 	background-color: black;
@@ -33,9 +33,15 @@ nav {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 32px;
-	
-
 }
+
+
+.label-white{
+	background-color: rgb(255, 255, 255);
+	color: #000;
+}
+
+
 
 
 .button {
@@ -181,7 +187,7 @@ nav {
 }
 
 
-.reasons__items{
+.reasons__items {
 	display: flex;
 	flex-direction: column;
 	row-gap: 30px;
@@ -246,7 +252,8 @@ nav {
 	text-align: center;
 	margin-bottom: 16px;
 }
-.mobile__title{
+
+.mobile__title {
 	font-size: 38px;
 	font-weight: 700;
 	line-height: 48px;
@@ -254,11 +261,12 @@ nav {
 }
 
 
-.mobile{
+.mobile {
 	padding-bottom: 100px;
+	background: url(../img/bg.png) center center repeat;
 }
 
-.mobile__subtitle{
+.mobile__subtitle {
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 21px;
@@ -268,7 +276,7 @@ nav {
 
 
 
-.mobile__card{
+.mobile__card {
 	width: 320px;
 	height: 280px;
 	background-color: #555555;
@@ -277,11 +285,11 @@ nav {
 	position: relative;
 
 	overflow: hidden;
-		/* background: url(../img/card.png) center center / cover no-repeat; */
+	/* background: url(../img/card.png) center center / cover no-repeat; */
 }
 
 
-.mobile__items{
+.mobile__items {
 	position: relative;
 	z-index: 10px;
 	height: 100%;
@@ -315,8 +323,66 @@ nav {
 	left: 0;
 
 }
-.mobile__row{
+
+.mobile__row {
 	display: flex;
 	column-gap: 67px;
 	margin-bottom: 19px;
 }
+
+
+
+/* CHOICE */
+
+.choice {}
+
+
+
+.choice__black {
+	background-color: #000;
+	height: 500px;
+	padding-top: 50px;
+}
+
+
+.choice__title {
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+	margin-top: 24px;
+	margin-bottom: 1px;
+}
+
+.choice__subtitle {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+}
+
+.choice__white {
+	background: #fff;
+	color: #000;
+	text-align: center;
+	background: url(../img/bg.png) center center repeat;
+	height: 400px;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.choice__image img {
+	margin-top: -240px;
+	/* position: absolute;
+		top: -50%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 760px;
+		height: 480px; */
+}
+.choice__text{
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: center;
+	}
